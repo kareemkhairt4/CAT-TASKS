@@ -5,6 +5,6 @@ int main(void) {
   printf (" please enter 3 numbers\n");
   scanf ("%d%d%d",&x,&y,&z);
   printf (" the numbers that you entered are\n");
-  printf ("%d\n%d\n%d",x,y,z);
+  printf ("%d\n%d\n%d",z,y,x);
   return 0;
 }
